@@ -17,9 +17,9 @@ SCRIPT
 
 
 $mininet = <<SCRIPT
-  git clone git://github.com/mininet/mininet
+  git clone https://github.com/fdekeers/mininet.git
   pushd mininet
-  git checkout 2.2.2
+  git checkout 2.2.2-branch
   ./util/install.sh -fn
   popd
   echo "PATH=$PATH:/home/vagrant/mininet/util/" >> ~/.bashrc
