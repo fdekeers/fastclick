@@ -38,3 +38,5 @@ compile_commands.json
 *.lto.o
 build/*
 userlevel/packetmill
+.vagrant
+*.log
